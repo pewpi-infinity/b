@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Infinity Control Grid — Repo B</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1 class="title">INFINITY CONTROL GRID</h1>
+
+<div class="grid">
+
+  <!-- Main Controls -->
+  <div class="tile" data-command="pulse">Pulse</div>
+  <div class="tile" data-command="expand">Expand</div>
+  <div class="tile" data-command="collapse">Collapse</div>
+  <div class="tile" data-command="speed_up">Speed ↑</div>
+  <div class="tile" data-command="slow_down">Speed ↓</div>
+  <div class="tile" data-command="spike">Energy Spike</div>
+  <div class="tile" data-command="reset">Reset</div>
+
+</div>
+
+<h2 class="subtitle">Behavior Modes</h2>
+<div class="grid">
+
+  <div class="tile mode" data-mode="listening">Listening</div>
+  <div class="tile mode" data-mode="thinking">Thinking</div>
+  <div class="tile mode" data-mode="exploring">Exploring</div>
+  <div class="tile mode" data-mode="filtering">Filtering</div>
+  <div class="tile mode" data-mode="doorway_seek">Doorway Seek</div>
+  <div class="tile mode" data-mode="barrier_detect">Barrier Detect</div>
+
+</div>
+
+<h2 class="subtitle">Brain Version</h2>
+<div class="grid">
+
+  <div class="tile model" data-model="v1">Brain v1</div>
+  <div class="tile model" data-model="v2">Brain v2</div>
+  <div class="tile model" data-model="v3">Brain v3</div>
+
+</div>
+
+<div id="feedback">
+  <p>Last Command: <span id="lastCmd">none</span></p>
+  <p>Active Mode: <span id="activeMode">none</span></p>
+  <p>Model: <span id="activeModel">v1</span></p>
+</div>
+
+<footer>
+  Cartridge B • <a href="https://pewpi-infinity.github.io/c/">Next → C</a>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
